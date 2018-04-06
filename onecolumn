@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<!--
+	Monochromed by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Stiven Piedrahita</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body>
+
+	<!-- Header -->
+		<div id="header">
+			<div class="container">
+
+				<!-- Logo -->
+					<div id="logo">
+						<h1><a href="#">Perfil Profesional</a></h1>
+					</div>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Vida Profesional</a></li>
+							<li><a href="threecolumn.html">Vida personal</a></li>
+							<li><a href="twocolumn1.html">Aspiraciones</a></li>
+							<li><a href="twocolumn2.html">Estudios</a></li>
+							<li class="active"><a href="columnone.html">Conctacto</a></li>
+						</ul>
+					</nav>
+
+			</div>
+		</div>
+	<!-- Header -->
+
+	<!-- Main -->
+		<div id="main">
+			<div class="container">
+				<div class="row">
+
+					<!-- Content -->
+						<div id="content" class="12u skel-cell-important">
+							<section>
+								<header>
+									<h2>Conctatame</h2>
+									<span class="byline">Dudas o preguntas</span>
+								</header>
+
+								<form action="Enviodedatos.php" method="post">
+								<div id="content" class="12u skel-cell-important" >
+
+									<div><label>Nombres</label></div>
+										<div><input type="text" name="Nombres" onkeypress="return sololetras(event)" required/></div>
+
+									<div><label>Apellidos</label></div>
+										<div><input type="text" name="Apellidos" onkeypress="return sololetras(event)" required/></div>
+
+									<div><label>Telefono</label></div>
+										<div><input type="number" name="Telefono" onkeypress="return solonumeros(event)" required/></div>
+
+									<div><label>Correo Electronico</label></div>
+										<div><input type="text" name="Correo Electronico" required/></div>
+
+									<div><label>Asunto</label></div>
+										<div><input type="text" name="Asunto" required/></div>
+
+									<div><label> Cuerpo del mensaje </label></div>
+										<div><input type="text" name="Cuerpo del mensaje" onkeypress="return sololetras(event)" required/></div>
+</div>
+	<input type="submit" value="Enviar Datos"/>
+</div>
+
+								</div>
+							</section>
+						</div>
+					<!-- /Content -->
+
+				</div>
+
+			</div>
+		</div>
+	<!-- Main -->
+
+
+
+
+
+	</body>
+</html>
